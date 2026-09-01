@@ -6,9 +6,9 @@
 ***************************************************************************************************************
 &COMMAND
  LDIRECT=              -1, ! Simulation direction in time   ; 1 (forward) or -1 (backward)
- IBDATE=         19950101, ! Start date of the simulation   ; YYYYMMDD: YYYY=year, MM=month, DD=day
+ IBDATE=         20170925, ! Start date of the simulation   ; YYYYMMDD: YYYY=year, MM=month, DD=day
  IBTIME=           000000, ! Start time of the simulation   ; HHMISS: HH=hours, MI=min, SS=sec; UTC
- IEDATE=         19950105, ! End date of the simulation     ; same format as IBDATE
+ IEDATE=         20170928, ! End date of the simulation     ; same format as IBDATE
  IETIME=           000000, ! End time of the simulation     ; same format as IBTIME
  LOUTSTEP=           3600, ! Interval of model output; average concentrations calculated every LOUTSTEP (s)
  LOUTAVER=           3600, ! Interval of output averaging (s)
@@ -18,7 +18,7 @@
  CTL=          -5.0000000, ! CTL>1, ABL time step = (Lagrangian timescale (TL))/CTL, uses LSYNCTIME if CTL<0
  IFINE=                10, ! Reduction for time step in vertical transport, used only if CTL>1
  IOUT=                  9, ! Output type: [1]mass 2]pptv 3]1&2 4]plume 5]1&4, +8 for NetCDF output
- IPOUT=                 1, ! Particle position output: 0]no 1]every output 2]only at end 3]time averaged
+ IPOUT=                 0, ! Particle position output: 0]no 1]every output 2]only at end 3]time averaged
  LSUBGRID=              0, ! Increase of ABL heights due to sub-grid scale orographic variations;[0]off 1]on
  LCONVECTION=           1, ! Switch for convection parameterization;0]off [1]on
  LTURBULENCE=           1, ! Switch for turbulence parameterisation;0]off [1]on
