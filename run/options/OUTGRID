@@ -12,10 +12,10 @@
 ! OUTHEIGHTS = HEIGHT OF LEVELS (UPPER BOUNDARY)                               *
 !*******************************************************************************
 &OUTGRID
- OUTLON0=      0.00,
- OUTLAT0=     30.00,
- NUMXGRID=       60,
- NUMYGRID=       60,
+ OUTLON0=     10.00,
+ OUTLAT0=     20.00,
+ NUMXGRID=       80,
+ NUMYGRID=      120,
  DXOUT=        0.50,
  DYOUT=        0.50,
  OUTHEIGHTS=  100.0, 500.0, 1000.0 , 50000.0,
