@@ -67,8 +67,8 @@ endif
 ## Environment Modules set CPATH and LIBRARY_PATH
 #
 # You can also hardcode the include and library paths here
-# CPATH = /path/to/include1:/path/to/include2
-# LIBRARY_PATH = /path/to/lib1:/path/to/lib2
+CPATH = /srv/conda/envs/notebook/include
+LIBRARY_PATH = /srv/conda/envs/notebook/lib
 #
 ifndef CPATH
 # default path for system headers and gfortran modules
